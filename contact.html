@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Контакти с Moonlight IT Solutions Варна.">
+    <title>Moonlight IT Solutions | Контакти</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <div class="nav-container">
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/logo.png" alt="Moonlight IT Logo">
+                <span>Moonlight <strong>IT</strong></span>
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Начало</a></li>
+                <li><a href="about.html">За нас</a></li>
+                <li><a href="services.html">Услуги</a></li>
+                <li><a href="news.html">Новини</a></li>
+                <li><a href="gallery.html">Галерия</a></li>
+                <li><a href="contact.html" class="active">Контакти</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <h1>Контакти</h1>
+    <div class="flex-container">
+        <div class="col-left">
+            <h3>Пишете ни</h3>
+            <form class="contact-form" onsubmit="return validateForm()">
+    <input type="text" id="name" placeholder="Име" required>
+    <input type="email" id="email" placeholder="Email" required>
+    <textarea id="message" rows="4" placeholder="Съобщение" required></textarea>
+    <button type="submit" class="btn">ИЗПРАТИ</button>
+</form>
+        </div>
+        <div class="col-right">
+    <h3>Адрес</h3>
+    <p>📍 гр. Варна, ул. "Райко Жинзифов" 12</p>
+    <div class="map-box">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2907.820353112028!2d27.90635447656364!3d43.202798881474936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a454039eb8881d%3A0x5ea77f8968b259f4!2z0YPQuy4g0KDQsNC50LrQviDQltC40L3Qt9C40YTRvtCyIDEyLCA5MDAwINCS0LDRgNC90LA!5e0!3m2!1sbg!2sbg!4v1715851234567!5m2!1sbg!2sbg" 
+            width="100%" 
+            height="100%" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+</div>
+    </div>
+</main>
+
+<footer>
+    <div class="footer-links">
+        <a href="index.html">Начало</a>
+        <a href="about.html">За нас</a>
+        <a href="services.html">Услуги</a>
+        <a href="contact.html">Контакти</a>
+    </div>
+
+    <div class="social-links">
+        <a href="#">Facebook</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">Twitter</a>
+    </div>
+
+    <p>&copy; 2026 Moonlight IT Solutions. Всички права запазени.</p>
+</footer>
+
+<script>
+function validateForm() {
+    alert("Благодарим Ви! Съобщението Ви до офис Варна е изпратено.");
+    return false;
+}
+</script>
+
+</body>
+</html>
